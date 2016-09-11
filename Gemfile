@@ -3,8 +3,8 @@
 source 'https://rubygems.org'
 
 # Middleman Gems
-gem 'middleman', '>= 4.0.0'
+gem 'middleman', '~> 4.0'
 gem 'middleman-livereload'
 gem 'middleman-google-analytics'
 gem 'slim'
-gem "middleman-sprockets", "~> 4.0.0.rc"
+gem "mgd"

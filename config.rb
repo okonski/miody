@@ -14,7 +14,6 @@ set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
 
-
 # With alternative layout
 # page "/path/to/file.html", layout: :otherlayout
 
@@ -44,11 +43,7 @@ end
 #   end
 # end
 
-# Build-specific configuration
 configure :build do
-  # Minify CSS on build
-  activate :minify_css
-
   # Minify Javascript on build
-  # activate :minify_javascript
+  activate :minify_javascript
 end
